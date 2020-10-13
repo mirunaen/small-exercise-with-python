@@ -124,3 +124,10 @@ for count in range(12):
 
   #arrays:lists and tuples
   #records:dictionaries,objects
+
+  #lists(position matters,)
+list1=["Monday","Tuesday","Wed","Thue","Fri","Sat","Sund"]
+  print(list1[2])
+
+  list3=[4,3.5,True,"hello",6]
+  print(list3[2])
