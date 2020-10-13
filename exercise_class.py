@@ -73,3 +73,36 @@ st3="This is a string,a string is a sequence of letters"
 print(st3.replace("o","x"))
 st3=st3.replace("o","x")
 
+for counter in range(1,10):
+  print(counter, end = " ")
+print()
+#end= " "print in the same line with an space
+for counter in range(1,20,4):
+  print(counter, end = " ")
+print()
+
+for counter in range(6):
+  print(counter, end=" ")
+
+#Nested loops
+#for every iteration of the outer loop.the inner loop will be completely repeated
+times= 0 
+for counter in range(8):
+  print()
+  print("counter1",counter)
+  for counter2 in range(4):
+    #this line is executed 32 times
+    print("counter2",counter2, end = " ")
+    times= times + 1
+print(times)
+print(counter,end = " ")
+print(counter2, end = " ")
+
+#Branching statements 
+#break,continue and return
+#break(inside a loop it stops it and finish it)
+
+for count in range(12):
+  if count == 6:
+    break
+  print(count,end=" ")
