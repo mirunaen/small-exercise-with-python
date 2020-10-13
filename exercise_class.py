@@ -102,7 +102,25 @@ print(counter2, end = " ")
 #break,continue and return
 #break(inside a loop it stops it and finish it)
 
+s= "hello how are you"
+counter=0
+found=False
+while(counter < len(s) and not found ):
+  if s[counter] == "w":
+    print("Found w at position",counter)
+    found=True
+    #an alternative would be a break
+  else:
+    counter = counter+1
+
+for count in range(12):
+  if count == 6:
+    continue 
+  print(count,end= " ")
 for count in range(12):
   if count == 6:
     break
   print(count,end=" ")
+
+  #arrays:lists and tuples
+  #records:dictionaries,objects
